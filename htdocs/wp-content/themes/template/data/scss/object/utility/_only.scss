@@ -1,0 +1,13 @@
+/* DISPLAY ON PC or SP ONLY */
+
+@media screen and (min-width: 375px) {
+  .u-sp-only {
+      display: none !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .u-pc-only {
+      display: none !important;
+  }
+}

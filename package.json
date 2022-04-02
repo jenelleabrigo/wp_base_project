@@ -1,0 +1,17 @@
+{
+  "name": "wp_base_project",
+  "version": "1.0.0",
+  "description": "base project template for wordpress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jenelle Loise Abrigo",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.11"
+  }
+}
