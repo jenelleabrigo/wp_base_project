@@ -1,0 +1,15 @@
+//PC
+
+$pc-layout-width: 1920;
+$pc-margin: 4rem;
+$pc-min-width: calc(#{$pc-layout-width}px + #{$pc-margin * 2});
+
+// SmartPhone
+$sp-width: 375;
+$sp-width-breakpoint: $sp-width * 2;
+$sp-margin: 2rem;
+
+//default
+$font-default: 'Lato', sans-serif;
+$color-default: #21252b;
+$font-size-default: 16px;

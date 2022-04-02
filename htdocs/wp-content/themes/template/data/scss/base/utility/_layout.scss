@@ -1,0 +1,26 @@
+.u-layout {
+  margin: 0 auto;
+  max-width: $pc-min-width;
+  padding: 0 $pc-margin;
+
+  @include mq_sp {
+    margin: 0 $sp-margin;
+    width: auto;
+    padding: 0;
+  }
+}
+
+@include mq_pc {
+  .u-pc-layout {
+    margin: 0 auto;
+    max-width: $pc-min-width;
+    padding: 0 $pc-margin;
+  }
+}
+
+@include mq_sp {
+  .u-sp-layout {
+    margin: 0 $sp-margin;
+    max-width: none;
+  }
+}

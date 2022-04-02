@@ -1,6 +1,12 @@
 .l-header {
-  height: 10rem;
-  width: 10rem;
-  background: red;
-  color: #fff;
+  width: 100%;
+  background: #ababab;
+  padding: 1rem;
+  height: 5rem;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

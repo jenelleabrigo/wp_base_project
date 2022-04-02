@@ -1,0 +1,13 @@
+//style for pc layout only
+@mixin mq_pc {
+    @media screen and (min-width: ($sp-width-breakpoint + 1) + px) {
+        @content;
+    }
+}
+
+//style for SmartPhone only
+@mixin mq_sp {
+    @media screen and (max-width: $sp-width-breakpoint + px) {
+        @content;
+    }
+}

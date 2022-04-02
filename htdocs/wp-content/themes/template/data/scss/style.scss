@@ -1,21 +1,26 @@
-/* FOUNDATION STYLE */
-@import './foundation/base.scss';
-@import './foundation/default.scss';
+/* BASE STYLE */
+@import './base/variables'; //always import files with variables before files where variables are called
+@import './base/reset';
+
+/* BASE STYLE: MIXINS */
+@import './base/mixins/media-query';
+
+/* BASE STYLE: UTILITY */
+@import './base/utility/flex';
+@import './base/utility/fonts';
+@import './base/utility/layout';
+@import './base/utility/only';
+
+
+/* COMPONENT STYLE */
+@import './component/c-button';
+
 
 /* LAYOUT STYLE */
-@import './layout/footer.scss';
-@import './layout/header.scss';
-@import './layout/main.scss';
-@import './layout/nav.scss';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/main';
+@import './layout/nav';
 
-/* OBJECT STYLE */
-/* COMPONENT STYLE */
-@import './object/component/c-button.scss';
-
-/* PROJECT STYLE */
-@import './object/project/index.scss';
-
-/* UTILITY STYLE */
-@import './object/utility/fonts.scss';
-@import './object/utility/layout.scss';
-@import './object/utility/only.scss';
+/* LAYOUT STYLE: PAGES */
+@import './layout/pages/index';

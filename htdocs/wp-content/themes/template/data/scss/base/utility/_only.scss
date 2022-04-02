@@ -1,0 +1,15 @@
+/* DISPLAY ON PC or SP ONLY */
+
+//display at pc only
+@include mq_pc {
+  .u-sp-only {
+    display: none !important;
+  }
+}
+
+//display at sp only
+@include mq_sp {
+  .u-pc-only {
+    display: none !important;
+  }
+}

@@ -1,0 +1,88 @@
+.l-nav {
+  &__trigger {
+    &__button {
+      height: 1.5rem;
+      width: 2rem;
+      border-radius: 0;
+      border: none;
+      background: none;
+      position: relative;
+    }
+
+    &__line {
+      position: absolute;
+      height: 0.2rem;
+      width: 100%;
+      display: block;
+      background: #000;
+
+      &:nth-child(1) {
+        top: 0;
+      }
+
+      &:nth-child(2) {
+        top: 0.5rem;
+      }
+
+      &:nth-child(3) {
+        top: 1rem;
+      }
+    }
+
+    .is-show-nav & {
+      &__line {
+        &:nth-child(1) {
+          top: 0.5rem;
+          transform: rotate(45deg);
+        }
+
+        &:nth-child(2) {
+          top: 0.5rem;
+          display: none;
+        }
+
+        &:nth-child(3) {
+          top: 0.5rem;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    width: 100%;
+
+    @include mq_sp {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    &__menu {
+      width: auto;
+      padding-right: 1rem;
+
+      &__anchor {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+
+    .is-show-nav & {
+      position: fixed;
+      bottom: 0;
+      background: #000;
+      opacity: 0.5;
+      padding-top: 7rem;
+      text-align: center;
+
+      &__menu {
+        width: 100%;
+        display: block;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
