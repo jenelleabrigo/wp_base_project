@@ -1,0 +1,26 @@
+.c-button {
+  display: block;
+  text-align: center;
+  width: max-content;
+  padding: 0.5rem 2rem;
+  background: #afafaf;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &.is-primary {
+    background: blue;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  &.is-secondary {
+    background: green;
+    color: #fff;
+  }
+}

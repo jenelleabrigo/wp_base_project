@@ -1,0 +1,27 @@
+.u-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.u-subheading {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.u-text {
+  line-height: 1.5;
+
+  &.is-big {
+      font-size: 1.5rem;
+  }
+
+  &.is-med {
+      font-size: 1.2rem;
+  }
+
+  &.is-small {
+      font-size: 1rem;
+  }
+}

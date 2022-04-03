@@ -1,0 +1,11 @@
+.p-index {
+  &__carousel {
+    height: 30rem;
+    background: url("../img/bg-carousel.jpg") no-repeat;
+    background-size: cover;
+
+    @include mq_sp {
+      height: 20rem;
+    }
+  }
+}

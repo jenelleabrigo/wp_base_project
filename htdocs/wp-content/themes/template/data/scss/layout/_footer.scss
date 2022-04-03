@@ -1,0 +1,15 @@
+.l-footer {
+background: #afafaf;
+
+  &__logo {
+    &__anchor {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  &__copyright {
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
