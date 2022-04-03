@@ -2,7 +2,7 @@
   <div class="l-footer">
     <div class="u-layout">
       <p class="l-footer__logo"><a href="<?php echo home_url('/') ?>" class="l-footer__logo__anchor">Logo</a></p>
-      <p class="l-footer__copyright">All rights reserve 2022</p>
+      <p class="l-footer__copyright">All rights reserved 2022</p>
     </div>
   </div>
 </footer>
